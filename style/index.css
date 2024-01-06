@@ -1,0 +1,128 @@
+* {
+  font-family: open Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #fff8f3;
+  padding: 0 180px;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, bottom left;
+}
+
+main{
+  padding: 0 200px;
+}
+
+/* code for navbar styling */
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-container h1 {
+  font-size: 2rem;
+}
+
+.nav-container span {
+  color: #fd6e0a;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.btn-primary {
+  padding: 15px 40px;
+  font-weight: 800;
+  font-size: 1rem;
+  background-color: #fd6e0a;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.menu-item li {
+  color: rgb(103, 103, 103);
+}
+
+/* code for hero section */
+
+.main-hero-container {
+  display: flex;
+  line-height: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-info h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.hero-info h1 {
+  font-size: bolder;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.hero-info p {
+  color: rgb(117, 117, 117);
+  margin-bottom: 35px;
+}
+
+.hero-info button {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.download-btn {
+  display: flex;
+  align-items: center;
+}
+
+#outline-btn {
+  border: #fd6e0a solid 1px;
+  background-color: transparent;
+  color: rgb(95, 95, 95);
+}
+
+.main-hero-container img {
+  width: 50%;
+  margin-right: -100px;
+}
+
+/* code for about section */
+
+.about {
+  border-radius: 10px;
+  background-color: #fff8f3;
+  text-align: center;
+  padding: 80px;
+  margin: 100px 0;
+  
+}
+
+.about p {
+  margin-top: 40px;
+  color: #8d8d8d;
+  line-height: 25px;
+}
+
+.card-info-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-info-items div {
+  line-height: 2px;
+  color: rgb(88, 88, 88);
+}
